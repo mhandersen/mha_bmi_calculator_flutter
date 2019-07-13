@@ -1,16 +1,10 @@
 # mha_bmi_calculator_flutter
 
-A new Flutter application.
+A simple BMI Flutter application. Based on lession from this course: https://www.appbrewery.co/p/flutter-development-bootcamp-with-dart
 
-## Getting Started
+## Changed
+This version uses Named Routes and passes the CalculatorBrain object to the ResultsPage and using properties instead of methods.
 
-This project is a starting point for a Flutter application.
+I prefer to pass an object using Named Routes instead of a bunch of parameters. Also this goes better with the ViewModel kind-of-thinking I am used to when using ASP.NET MVC etc.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Enjoy! :-)
